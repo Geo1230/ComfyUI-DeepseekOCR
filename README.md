@@ -50,7 +50,7 @@ huggingface-cli download deepseek-ai/DeepSeek-OCR --local-dir . --repo-type mode
 
 **说明**：模型会下载到 `ComfyUI\models\deepseek-ocr\deepseek-ai_DeepSeek-OCR\` 目录
 
-**或使用自动下载**：
+**或使用自动下载**（不推荐，稳定性一般）：
 
 首次运行 Load 节点时会自动下载，下载进度在控制台显示。
 
@@ -60,20 +60,6 @@ huggingface-cli download deepseek-ai/DeepSeek-OCR --local-dir . --repo-type mode
 $env:DPSK_AUTODOWNLOAD = "0"
 ```
 
-## 系统要求
-
-- **操作系统**：Windows / Linux / macOS
-- **Python**：≥ 3.10
-- **显卡**：NVIDIA GPU（推荐 12GB+ 显存）
-- **依赖**：transformers ≥ 4.46（推荐 4.46.3）
-- **磁盘空间**：约 10GB（模型权重）
-
-**显存需求参考**：
-- Tiny (512x512)：约 4GB
-- Small (640x640)：约 6GB
-- Base (1024x1024)：约 10GB
-- Large (1280x1280)：约 14GB
-- Gundam (动态)：约 8-12GB
 
 ## 使用方法
 
@@ -178,7 +164,7 @@ box_width = 5              → 5px 粗边框
 ```
 LoadImage
    ↓
-DeepSeek OCR: Load Model  ← 加载模型（首次会自动下载 8-10GB）
+DeepSeek OCR: Load Model  
    ↓
 DeepSeek OCR: Run
    ├─→ text → Display Text / Save Text
