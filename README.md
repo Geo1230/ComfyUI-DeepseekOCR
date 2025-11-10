@@ -1,9 +1,6 @@
 # ComfyUI-DeepseekOCR
 
-
 自用节点，将 **DeepSeek-OCR** 封装为 ComfyUI 插件，提供强大的 OCR 识别和文档解析功能。
-
-![工作流示例](screenshot-1.png)
 
 
 ## 功能特性
@@ -129,9 +126,6 @@ $env:DPSK_AUTODOWNLOAD = "0"
 
 ## 效果展示
 
-![Markdown 转换示例](screenshot-2.png)
-
-*左图：输入文档 | 右图：Markdown 转换结果*
 
 ## 使用指南
 
