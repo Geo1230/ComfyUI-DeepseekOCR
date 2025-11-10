@@ -1,0 +1,14 @@
+# DeepSeek-OCR 官方依赖
+transformers>=4.46
+tokenizers>=0.20
+einops
+easydict
+addict
+
+# 插件运行依赖
+huggingface_hub>=0.26
+Pillow
+numpy
+
+# 模型自定义代码需要（trust_remote_code）
+matplotlib

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ComfyUI 相关
+*.safetensors
+*.ckpt
+*.pth
+
+# 临时文件
+*.tmp
+*.log
+
+# 测试文件
+test_*.py
+tests/__pycache__/
+
+# 开发文档（不发布）
+plan.md
+deepseek-ai_DeepSeek-OCR - 副本/
+patch_model_code.py
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+
