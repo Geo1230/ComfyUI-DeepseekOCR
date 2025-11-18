@@ -15,8 +15,19 @@ A custom node that wraps **DeepSeek-OCR** as a ComfyUI plugin, providing powerfu
 ```bash
 cd ComfyUI/custom_nodes/
 git clone https://github.com/Geo1230/ComfyUI-DeepseekOCR.git
-cd ComfyUI-DeepseekOCR
 ```
+
+Portable/venv:
+Run
+```bash
+path/to/ComfUI/python_embeded/python.exe -s -m pip install -r requirements.txt
+```
+With system python
+Run
+```bash
+pip install -r requirements.txt
+```
+Start ComfyUI
 
 **Install Dependencies**
 
