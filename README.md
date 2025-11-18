@@ -5,12 +5,7 @@
 A custom node that wraps **DeepSeek-OCR** as a ComfyUI plugin, providing powerful OCR recognition and document parsing capabilities.
 
 
-## Features
-
-
-
-## Quick Start
-
+**Install Dependencies**
 
 ```bash
 cd ComfyUI/custom_nodes/
@@ -29,11 +24,6 @@ pip install -r requirements.txt
 ```
 Start ComfyUI
 
-**Install Dependencies**
-
-```bash
-pip install -r requirements.txt
-```
 Recommended transformers 4.46.3
 If you encounter compatibility issues with transformers 4.55+, downgrade:
 ```bash
