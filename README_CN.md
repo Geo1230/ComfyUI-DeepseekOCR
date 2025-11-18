@@ -15,19 +15,17 @@
 ```bash
 cd ComfyUI/custom_nodes/
 git clone https://github.com/Geo1230/ComfyUI-DeepseekOCR.git
-cd ComfyUI-DeepseekOCR
 ```
 
 **安装依赖**
 
-```bash
+如果你使用的是 ComfyUI 自带的便携版 / venv：
+运行：
+path/to/ComfUI/python_embeded/python.exe -s -m pip install -r requirements.txt
+
+如果你使用的是系统自带的 Python：
+运行：
 pip install -r requirements.txt
-```
-推荐transformers 4.46.3
-如果你使用 transformers 4.55+ 遇到兼容性问题，建议降级：
-```bash
-pip install transformers==4.46.3 tokenizers==0.20.3
-```
 
 **下载模型**
 
