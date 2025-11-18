@@ -21,12 +21,14 @@ git clone https://github.com/Geo1230/ComfyUI-DeepseekOCR.git
 
 如果你使用的是 ComfyUI 自带的便携版 / venv：
 运行：
+```bash
 path/to/ComfUI/python_embeded/python.exe -s -m pip install -r requirements.txt
-
+```
 如果你使用的是系统自带的 Python：
 运行：
+```bash
 pip install -r requirements.txt
-
+```
 **下载模型**
 
 创建目录并进入：
